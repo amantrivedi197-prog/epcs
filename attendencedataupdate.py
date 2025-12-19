@@ -1,3 +1,4 @@
+import matplotlip.pyplot as plt
 import tkinter
 from tkinter import*
 from tkinter import ttk
@@ -103,4 +104,5 @@ bt1.place(x=460,y=450)
 
 bt1=Button(t,text='Exit',bd=10,font=1,bg='tan',fg='red',command=aman)
 bt1.place(x=650,y=450)
+
 t.mainloop()
